@@ -63,12 +63,8 @@ Se puede visualizar el código de la vista con SwiftUI
 
 import SwiftUI
 
-//let CursosTest = [
-//Curso(nombre: "React", instructor: "Marc", horas: 24),
-//Curso(nombre: "SwiftUI", instructor: "Arturo G", horas: 24)
-//             ]
 struct CursosListView: View {
-//    var cursos = CursosTest
+
  @ObservedObject private  var viewModel = CursosViewModel()
     var body: some View {
         NavigationView{
